@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sana & Aslam Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Great+Vibes&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="petal-field" aria-hidden="true"></div>
+  <div class="star-field" aria-hidden="true">
+    <span class="shooting-star"></span>
+    <span class="shooting-star shooting-star-two"></span>
+  </div>
+
+  <header class="hero section">
+    <nav class="topbar" aria-label="Invitation navigation">
+      <span>Sana & Aslam</span>
+      <a href="#rsvp">RSVP</a>
+    </nav>
+
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="bismillah">Bismillah-ir-Rahman-ir-Raheem</p>
+        <p class="kicker">Wedding Invitation</p>
+        <h1>Sana <span>&</span> Aslam</h1>
+        <p class="intro">With the blessings of Allah, we joyfully invite you to celebrate our nikah and wedding gathering.</p>
+        <div class="date-strip">
+          <span>Sunday</span>
+          <strong>10 Jan 2027</strong>
+          <span>NSS Karayoga Auditorium</span>
+        </div>
+        <div class="hero-actions">
+          <a class="primary-action" href="#rsvp">Accept Invitation</a>
+          <button class="music-button" type="button" id="music-toggle">Play Song</button>
+        </div>
+      </div>
+
+      <div class="photo-stage">
+        <div class="crescent-lamp" aria-hidden="true">
+          <span class="crescent"></span>
+          <span class="lamp"></span>
+        </div>
+        <figure class="hero-photo">
+          <img src="assets/couple-black.jpeg" alt="Sana and Aslam together">
+        </figure>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section countdown-section" aria-labelledby="countdown-title">
+      <div class="section-heading">
+        <p>Counting the days</p>
+        <h2 id="countdown-title">Until Our Beautiful Day</h2>
+      </div>
+      <div class="clock-card" aria-live="polite">
+        <div class="clock-ring">
+          <div class="clock-hand hour-hand"></div>
+          <div class="clock-hand minute-hand"></div>
+          <div class="clock-hand second-hand"></div>
+          <div class="clock-center"></div>
+        </div>
+        <div class="timer-grid">
+          <div><strong id="days">000</strong><span>Days</span></div>
+          <div><strong id="hours">00</strong><span>Hours</span></div>
+          <div><strong id="minutes">00</strong><span>Minutes</span></div>
+          <div><strong id="seconds">00</strong><span>Seconds</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section invitation-letter" aria-labelledby="letter-title">
+      <div class="letter-panel">
+        <p class="bismillah">In the name of Allah, the Most Gracious, the Most Merciful</p>
+        <h2 id="letter-title">A Warm Invitation</h2>
+        <p>We request the pleasure of your presence and duas as Sana and Aslam begin their blessed journey together. Your love, prayers, and presence will make this celebration complete.</p>
+        <div class="venue-line">
+          <span>Venue</span>
+          <strong>NSS Karayoga Auditorium, Karumalloor</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="section portraits" aria-labelledby="portraits-title">
+      <div class="section-heading">
+        <p>Two hearts, one dua</p>
+        <h2 id="portraits-title">Bride & Groom</h2>
+      </div>
+      <div class="portrait-grid">
+        <figure class="portrait tall">
+          <img src="assets/sana-front.jpeg" alt="Bride Sana">
+          <figcaption><span>Bride</span>Sana</figcaption>
+        </figure>
+        <figure class="portrait wide">
+          <img src="assets/couple-rose.jpeg" alt="Sana and Aslam together">
+          <figcaption><span>Together</span>With love and duas</figcaption>
+        </figure>
+        <figure class="portrait tall">
+          <img src="assets/aslam-blue.jpeg" alt="Groom Aslam">
+          <figcaption><span>Groom</span>Aslam</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section details" aria-labelledby="details-title">
+      <div class="section-heading">
+        <p>Modern touch</p>
+        <h2 id="details-title">Location & QR</h2>
+      </div>
+      <div class="details-grid">
+        <div class="location-card">
+          <h3>NSS Karayoga Auditorium</h3>
+          <p>Karumalloor</p>
+          <a class="secondary-action" target="_blank" rel="noreferrer" href="https://www.google.com/maps/search/?api=1&query=NSS%20Karayoga%20Auditorium%2C%20Karumalloor">Open Google Maps</a>
+        </div>
+        <div class="qr-card" aria-label="QR code for Google Maps location">
+          <img class="qr-image" src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=https%3A%2F%2Fwww.google.com%2Fmaps%2Fsearch%2F%3Fapi%3D1%26query%3DNSS%2520Karayoga%2520Auditorium%252C%2520Karumalloor" alt="QR code for NSS Karayoga Auditorium map link">
+          <p>Scan for Location</p>
+          <strong>Google Maps</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="section rsvp" id="rsvp" aria-labelledby="rsvp-title">
+      <div class="rsvp-panel">
+        <div>
+          <p class="kicker">RSVP</p>
+          <h2 id="rsvp-title">Tell Us You Are Coming</h2>
+          <p>Share your family name and guest count so the celebration can welcome you beautifully.</p>
+        </div>
+        <form>
+          <label>Family name <input type="text" name="family" placeholder="Example: Rahman family"></label>
+          <label>Number of guests <input type="number" name="guests" min="1" placeholder="4"></label>
+          <label>Message <textarea name="message" rows="4" placeholder="Your wishes and duas"></textarea></label>
+          <button type="button" id="save-rsvp">Accept & Save RSVP</button>
+          <p class="form-note" id="form-note">This saves your RSVP in this browser.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section share" aria-labelledby="share-title">
+      <div class="share-panel">
+        <p class="kicker">Share</p>
+        <h2 id="share-title">Send Invitation</h2>
+        <p>Share this wedding website with family and friends on WhatsApp.</p>
+        <div class="share-actions">
+          <a class="whatsapp-action" id="whatsapp-share" target="_blank" rel="noreferrer" href="#">Share on WhatsApp</a>
+          <button type="button" id="copy-link">Copy Link</button>
+        </div>
+        <p class="form-note" id="share-note">Use your Cloudflare website link after upload.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>We look forward to celebrating with you.</p>
+    <strong>Sana & Aslam</strong>
+  </footer>
+
+  <audio id="wedding-song" preload="none" loop>
+    <source src="assets/jhol.mp3" type="audio/mpeg">
+  </audio>
+  <script src="script.js"></script>
+</body>
+</html>
